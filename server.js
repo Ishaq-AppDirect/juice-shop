@@ -611,3 +611,5 @@ exports.close = function (exitCode) {
     process.exit(exitCode)
   }
 }
+
+/* testing codeql */
