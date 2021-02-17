@@ -1,6 +1,6 @@
 # ![Juice Shop Logo](https://raw.githubusercontent.com/bkimminich/juice-shop/master/frontend/src/assets/public/images/JuiceShop_Logo_100px.png) OWASP Juice Shop
 
-# This is an intentionally vulnerable app used by the INFOSEC team for testing purpose, contact #tech-infosec or infosec@appdirect.com for any queries or concerns
+### This is an intentionally vulnerable app used by the AppDirect INFOSEC team for testing purpose, contact #tech-infosec or infosec@appdirect.com for any queries or concerns
 
 [![OWASP Flagship](https://img.shields.io/badge/owasp-flagship%20project-48A646.svg)](https://owasp.org/projects/#sec-flagships)
 [![GitHub release](https://img.shields.io/github/release/bkimminich/juice-shop.svg)](https://github.com/bkimminich/juice-shop/releases/latest)
