@@ -30,7 +30,7 @@ analyses:
     # - docker
     # - terraform
   - ecosystem: "npm_and_yarn"
-  - ecosystem: "docker
+  - ecosystem: "docker"
 
     # (optional) Where to find the package-ecosystem's lock file & manifest (Default: /)
     directory: "/" 
