@@ -1,0 +1,40 @@
+# .dependabot.yml 
+version: apddirect.com/v1beta1
+kind: DependabotConfig
+# Options: AppDirect Dependabot Config options
+options:
+  # (optional) The repo's default branch, to be scanned. (Default: master)
+  branch: master
+
+  # (optional) Dependabot will request reviews from these teams (Default: unset)
+  teamReviewers:
+    - infosec
+
+# Define the analyses to be performed on the repo.
+analyses:
+
+    # Name of the package manager you'd like to do the update for. Options are:
+    # - bundler
+    # - pip (includes pipenv)
+    # - npm_and_yarn
+    # - maven
+    # - gradle
+    # - cargo
+    # - hex
+    # - composer
+    # - nuget
+    # - dep
+    # - go_modules
+    # - elm``
+    # - submodules
+    # - docker
+    # - terraform
+  - ecosystem: "npm_and_yarn"
+
+    # (optional) Where to find the package-ecosystem's lock file & manifest (Default: /)
+    directory: "/" 
+
+    # (optional) Max number of open PRs allowed for this ecosystem (Default: 10)
+    maxPrs: 50
+
+  # Add one entry for each manifest in the project. (ex: npm, docker, smoke/npm, smoke/docker)
